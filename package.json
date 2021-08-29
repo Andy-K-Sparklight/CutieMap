@@ -1,0 +1,7 @@
+{
+    "private": true,
+    "dependencies": {
+        "commander": "^8.1.0",
+        "ws": "^8.2.1"
+    }
+}
