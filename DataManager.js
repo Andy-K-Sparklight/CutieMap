@@ -38,7 +38,6 @@ function operate(restArgs) {
   }
 }
 function query(restArgs) {
-  console.log("query: " + restArgs);
   restArgs.shift();
   let network = restArgs.shift() || "";
   if (
