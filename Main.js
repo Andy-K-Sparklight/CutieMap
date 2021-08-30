@@ -50,7 +50,6 @@ WS.on("connection", (sk) => {
       } else {
         sk.send(res);
       }
-      sk.send();
     } catch (e) {
       try {
         sk.send(String(e));
